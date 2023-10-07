@@ -1,6 +1,6 @@
 # DIY Geiger Counter with ESP32 and E-Ink Display
 
-![Project Image](image-link-here)
+![Project Image](https://makelogimg.dfrobot.com.cn/makelog/5a1be876e455e06a216f8d59/2cdb3804f46aaec1ff487c3593c5b3c3.png)
 
 ## Introduction
 
@@ -17,36 +17,31 @@ This project outlines the steps to create a DIY Geiger Counter using a Geiger-Mu
 ## Hardware Components
 
 - Geiger-Muller Tube
-- ESP32 Module
-- E-Ink Display
-- 3D Printer (for the enclosure)
+- E-Ink Display with ESP32 Module
+- 3D Printer enclosure
 
 ## Software Dependencies
 
 - Arduino IDE
 - Required Libraries:
-    - Geiger Library
-    - GxEPD2 Library for E-Ink Display
+    - GxEPD Library for E-Ink Display
 
 ## Getting Started
 
 1. **3D Printing the Enclosure**
-    - Design and 3D print the enclosure using the provided STL files.
-2. **Setting up the ESP32**
-    - Install the Arduino IDE and configure it for ESP32.
-    - Install the required libraries through the Library Manager in Arduino IDE.
-3. **Wiring**
+    - Download and 3D print the enclosure using the provided STL files.
+2. **Wiring**
     - Follow the wiring diagram provided to connect the Geiger-Muller tube, ESP32, and E-Ink display.
-4. **Software Configuration**
+3. **Software Configuration**
     - Load the provided Arduino sketch onto the ESP32.
     - Configure any necessary settings such as the Wi-Fi credentials if remote monitoring is desired.
-5. **Testing**
+4. **Testing**
     - Power on the Geiger Counter and verify that it's functioning as expected.
 
 ## Usage
 
 - The Geiger Counter will begin measuring radiation levels immediately upon powering on.
-- The E-Ink display will update with the current radiation level, and historical data can be accessed via the built-in buttons.
+- The E-Ink display will update with the current radiation level.
 
 ## Contributing
 
@@ -54,7 +49,7 @@ Feel free to fork this repository and submit Pull Requests for any improvements 
 
 ## License
 
-This project is open-source and is licensed under the MIT License. See the LICENSE file for more details.
+This project is open-source and is licensed under the CC License. See the LICENSE file for more details.
 
 ## Contact
 
